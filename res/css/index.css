@@ -1,0 +1,140 @@
+body{
+    font: 16px sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#eee;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+  
+ul{
+    margin:0;
+    padding:0;
+}
+
+/* THE MAIN MENU */
+
+header{
+    background:#5A2A27;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#5A2A27 3px solid;
+}
+  
+header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+  
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+  
+header #branding{
+    float:left;
+}
+  
+header #branding h1{
+    margin:0;
+}
+  
+header nav{
+    float:right;
+    margin-top:10px;
+}
+  
+header .highlight, header .current a{
+    color:#A5978B;
+    font-weight:bold;
+}
+  
+header a:hover{
+    color:#bbb;
+}
+
+/* THE VIDEO AND THE OVERLAY */
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -9999;
+}
+  
+.overlay {
+    position: fixed;
+    bottom: 0;
+    background: #8D5B4C;
+    opacity: 0.9;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#scrolldown {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+ 
+#scrolldown:hover {
+    background: #ddd;
+    color: black;
+}
+
+#change-your-future {
+    clear: both;
+}
+
+/* FADE-IN AND FADE-OUT */
+
+#fader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+
+    background: #5A2A27;
+
+    pointer-events: none;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes fade-out {
+    from { opacity: 1 }
+      to { opacity: 0 }
+}
+
+@keyframes fade-in {
+    from { opacity: 0 }
+      to { opacity: 1 }
+}
+
+#fader.fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+}
+
+#fader.fade-in {
+    opacity: 1;
+    animation-name: fade-in;
+}
+
