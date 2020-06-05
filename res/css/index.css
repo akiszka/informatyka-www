@@ -142,3 +142,8 @@ header a:hover{
     animation-name: fade-in;
 }
 
+@media only screen and (max-width: 740px) {
+    header h1 {
+        font-size: 24px;
+    }
+}
