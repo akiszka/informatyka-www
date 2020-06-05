@@ -70,7 +70,8 @@
     <hr id="footer-line">
 
     <article id="footer">
-        ANTONI KISZKA 1D
+        <p>ANTONI KISZKA 1D</p>
+        <a href="https://github.com/akiszka/informatyka-www" target="_blank">Kod strony</a>
     </article>
 <body>
 </html>

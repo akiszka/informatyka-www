@@ -142,6 +142,27 @@ header a:hover{
     animation-name: fade-in;
 }
 
+/* THE FOOTER */
+
+#footer-line {
+    border: none;
+    height: 1px;
+    background-color: #333;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    padding: 3vh 0;
+}
+
+#footer * {
+    padding: 0;
+    margin: 0;
+}
+
+/* MEDIA */
+
 @media only screen and (max-width: 740px) {
     header h1 {
         font-size: 24px;

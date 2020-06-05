@@ -81,5 +81,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         ?>
         </div>
     </article>
+
+    <hr id="footer-line">
+
+    <article id="footer">
+        <p>ANTONI KISZKA 1D</p>
+        <a href="https://github.com/akiszka/informatyka-www" target="_blank">Kod strony</a>
+    </article>
 <body>
 </html>

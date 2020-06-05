@@ -42,6 +42,13 @@ if($_SESSION["loggedin"] != true){
         </div>
     </article>
 
+    <hr id="footer-line">
+
+    <article id="footer">
+        <p>ANTONI KISZKA 1D</p>
+        <a href="https://github.com/akiszka/informatyka-www" target="_blank">Kod strony</a>
+    </article>
+
     <script>
         var countDownDate = new Date("Oct 30 , 2021 16:20:00").getTime();
 
