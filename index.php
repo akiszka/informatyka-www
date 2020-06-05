@@ -15,7 +15,7 @@
             <ul>
                 <li class="current"><a href="index.php">Strona główna</a></li>
                 <li><a href="about.php">O nas</a></li>
-                <li><a href="login.php">Logowanie</a></li>
+                <li><a href="login.php">Użytkownik</a></li>
             </ul>
             </nav>
         </div>

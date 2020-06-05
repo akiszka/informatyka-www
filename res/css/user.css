@@ -1,0 +1,18 @@
+article h1 {
+    color: #A5978B;
+}
+
+#countdown {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#user-info {
+    text-align: justify;
+}
+
+.logout-button {
+    width: 15%;
+    min-width: 100px;
+    max-width: 200px;
+}
