@@ -1,0 +1,46 @@
+article h1 {
+    color: #A5978B;
+}
+
+#change-your-future {
+    text-align: justify;
+}
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.pic-container {
+    display: block;
+    width: 40%;
+    min-width: 300px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.person-pic {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.pic-overlay {
+    font-size: 1em;
+    font-weight: 150;
+    padding: 20px;
+}
+
+#footer-line {
+    border: none;
+    height: 1px;
+    background-color: #333;
+}
+
+#footer {
+    width: 100%;
+    text-align: center;
+    padding: 3vh 0;
+}
